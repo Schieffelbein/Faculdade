@@ -114,11 +114,11 @@ fieldset:nth-child(4){
 
     border-radius: 4px;
     
-    color:#3333;
+    color:blue;
 
     font-size: 18px;
 
-    font-weight: 700;
+    font-weight: bold;
 
     padding: 14px 10px 0 10px;
 
@@ -190,5 +190,48 @@ button:hover{
 section img{
     width:150px;
     height: 150px;
+}
+
+@media only screen and (max-width: 1080px){
+    div#paralelograma{
+        height: 700px;
+    }
+    /* quando a tela for menor que 690 a imagem não aparece */
+    selection img  {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 510px) {
+    /* quando a tela for menor que 510 não mostrara o paralelograma */
+    div#paralelograma{
+        display: none;
+    }
+
+    selection{
+        min-width: 95vw;
+    }
+
+    form{
+        width: 100%;
+    }
+
+    fieldset:nth-child(2),
+    fieldset:nth-child(3),
+    fieldset:nth-child(4){
+        flex-direction: column;
+    }
+
+    fieldset:nth-child(4){
+        padding: 0px;
+    }
+
+    button{
+        width: 100%;
+        margin-left: 0;
+    }
+
+
 }
 
