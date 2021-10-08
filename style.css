@@ -194,7 +194,7 @@ section img{
 
 @media only screen and (max-width: 1080px){
     div#paralelograma{
-        height: 700px;
+        height: 800px;
     }
     /* quando a tela for menor que 690 a imagem não aparece */
     selection img  {
