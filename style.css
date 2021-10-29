@@ -232,9 +232,14 @@ section img{
         margin-left: 0;
     }
 
-
+    radio{
+        width: 100%;
+        margin-left: 0;
+    }
 }
 
-#masculino{
-background-color: red;
+#mprincipal,#fprincipal{
+    font-size: 25px;
+    margin-left: 10px;
+    color: #9d9d9d;
 }
